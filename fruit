@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<?php
+$apple = 10;
+$orange = 15;
+$watermelon = 7;
+$grapes = 5;
+$pears = 6;
+$peaches = 8;
+$pineapple = 12;
+$plums = 3;
+$strawberries = 4;
+$blueberries = 2;
+
+$subtotal = ($peaches + $plums);
+
+$discount = array(0.05, 0.1, 0.15, 0.2, 0.25);
+
+foreach ($discount as $value) {
+	echo ($value * $subtotal);
+    echo "<br>";
+}
+?>
+ 
+</body>
+</html>
